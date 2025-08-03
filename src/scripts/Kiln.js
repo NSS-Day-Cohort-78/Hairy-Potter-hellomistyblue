@@ -1,4 +1,5 @@
 export const firePottery = (placeholderOne, placeholderTwo) => {
+
     placeholderOne.fired = true
     if (placeholderTwo > 2200) { 
         placeholderOne.cracked = true
@@ -7,7 +8,6 @@ export const firePottery = (placeholderOne, placeholderTwo) => {
           placeholderOne.cracked = false
     }
 
-    
     return placeholderOne
 
 }
