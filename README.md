@@ -114,18 +114,17 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 
 **THEN PUSH YOUR CODE TO GITHUB**
 
-
 ## Vocabulary and Understanding
 
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
-1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
-2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
-3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
-4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
-5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+1.  Explain how you got the HTML, with the correct data, displayed in the browser?
+    >     By writing a for..of loop that loops over the array to add the properties into the html provided with interpolation and returns the pottery list items with the required values.
+2.  In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
+    > (https://www.loom.com/share/f0a97b81d7fb4027bb007fdba0d9adba?sid=bcbd41b0-3d8a-456a-82a0-cb00e4400f56)
+3.  The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
+    > Because the makePottery function is the function that makes the objects that are modified additional functions I have to create in later steps of the problem.
+4.  The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
+    > An else…if condition would need to be added in PotteryCatalog.js to add a price of 2.50 to the cracked pottery when the condition equals true.
+5.  In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
+    > (https://www.loom.com/share/c1a2e7bc14ae4d13a819b68ec9fd7e2b?sid=8231a9af-37e8-4810-ae7f-3e26e5bc19b6)
